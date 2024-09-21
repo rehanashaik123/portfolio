@@ -1,0 +1,102 @@
+.logo{
+    object-fit:cover;
+    padding-right: 10px;
+    height: 40px;
+    width: 200px;
+    border-radius: 15%;
+}
+
+.navbar{
+    background-color:black;
+    height: 5rem;
+    width:100%;
+    margin-top: 0 auto ;
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    justify-content:space-between;
+    position:fixed;
+    padding-left: 40px;
+    top: 0;
+    z-index: 3;
+    font-weight: 100;
+   
+}
+.desktopMenuBtn{
+   background-color: white;
+   border-radius: 2rem;
+   color: black;
+   border:none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0px;
+   height: 50px;
+   width: auto;
+   padding:0 1rem;
+   border-bottom: 3px solid gold;
+   font-weight: 20px;
+   
+}
+
+.desktopMenuListItem:hover {
+    color:gold;
+    padding-bottom: 10px;
+    border-bottom: 3px solid gold;
+    font-size: medium;
+    border-bottom-style:ridge;
+    border-radius: 30px;
+    
+}
+
+.active{
+    color: gold;
+    padding-bottom: 0.5 rem;
+    border-bottom: 3px solid gold;
+}
+
+.desktopMenuListItem{
+    margin: 1rem;
+    cursor: pointer;
+}
+.desktopMenuImg{
+    object-fit:cover;
+    height:30px;
+    margin: 1rem;
+    width: auto;
+    padding-right: 0rem;
+}
+
+.desktopMenuBtn:hover{
+    color:gold;
+    padding-bottom: 10px;
+    border-bottom: 3px solid gold;
+}
+
+@media screen and (max-width:720px) {
+    .desktopMenuListItem{
+        font-size: 2vw;
+    }
+    .logo{
+        padding-left: 0rem;
+        margin-left: 0rem;
+    }
+    .desktopMenuBtn{
+        padding-right: 0rem;
+        margin-right: 0rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .desktopMenuListItem{
+        font-size: 3vw;
+    }
+    .logo{
+        padding-left: 0rem;
+        margin-left: 0rem;
+    }
+    .desktopMenuBtn{
+        padding-right: 0.5rem;
+        margin-right: 0rem;
+    }
+}

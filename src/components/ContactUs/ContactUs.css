@@ -1,0 +1,110 @@
+#contact{
+    overflow:visible;
+    min-height: calc(100vh-4rem);
+    width: 130%;
+    max-width: 80rem;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:Black;
+    border-radius: 3rem;
+    height:auto;
+    margin-left: 10%;
+    
+
+}
+
+@media (max-width: 480px) {
+    #contact {
+        margin-left: 0%;
+        
+    }
+  }
+
+.msg{
+    height: 2rem;
+}
+.input{
+    border-style:hidden;
+    background-color:none;
+    border-radius: 2rem ;
+    display:flexbox;
+    margin:1rem;
+    padding: 1rem 0rem 0.5rem 2rem;
+}
+.contactTitle{
+    font-size: 3rem;
+    margin-bottom: 0rem;
+    margin-top: 5rem;
+}
+.contactDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 0rem;
+}
+.contactForm{
+    width: 100% center;
+    display:flexbox;
+    padding:1rem;
+    
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+  width: 100%; 
+  padding: 0.75rem;
+  font-size: 1rem;
+  height: 0.2rem;
+  padding-left: 1rem;
+  border-radius: 2rem;
+}
+
+.submitBtn{
+    background-color: white;
+   border-radius: 2rem;
+   color: black;
+   border:none;
+   display: flexbox;
+   align-items: center;
+   justify-content: center;
+   height: 3rem;
+   width:5rem ;
+   padding:0.75 1rem;
+   border-bottom: 3px solid gold;
+   font-weight: 200;
+   margin-top: 0;
+   margin-bottom: 2rem;
+}
+
+@media (max-width: 600px) {
+    input[type="text"], 
+    input[type="email"], 
+    textarea {
+      font-size: 0.9rem; /* Smaller font size on smaller screens */
+    }
+  }
+
+
+    @media (max-width: 480px) {
+        input[type="text"], 
+        input[type="email"], 
+        textarea {
+            margin-left: 0%;
+          font-size: 0.9rem; /* Smaller font size on smaller screens */
+        }
+        .contactDesc{
+                margin-left: 40%;
+        }
+        .contactForm{
+            margin-left: 40%;
+        }
+        .contactTitle{
+            margin-left: 40%;
+            font-size:2.3rem;
+            
+            
+        }
+      }
